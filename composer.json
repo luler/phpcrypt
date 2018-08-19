@@ -17,8 +17,5 @@
 		"psr-4" : {
 			"Php\\Crypt\\" : "src/Php/Crypt"
 		}
-	},
-	"keywords" : [
-		"encrypt、decrypt"
-	]
+	}
 }

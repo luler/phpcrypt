@@ -8,7 +8,7 @@
 			"email" : "1207032539@qq.com"
 		}
 	],
-	"minimum-stability" : "dev-master",
+	"minimum-stability" : "dev",
 	"prefer-stable" : true,
 	"require" : {
 		"php" : ">=5.6"

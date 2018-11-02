@@ -6,9 +6,9 @@ $crypt = new \Php\Crypt\Crypt();
 $cleartext = "需要加密的数据";
 $cipher = $crypt->encrypt($cleartext, "123456");
 echo '密文：' . $cipher . "\n";
-echo '明文：          ' . $crypt->decrypt($cipher, "123456") . "\n";
+echo '明文：' . $crypt->decrypt($cipher, "123456") . "\n";
 //设置秘钥超时失效，只需把expires参数设置有效时间，单位是秒,比如有效期为一分钟，则设置expires为60
 $cipher = $crypt->encrypt($cleartext, "123456", 60);
-echo '密文：       ' . $cipher . "\n";
-echo '明文：          ' . $crypt->decrypt($cipher, "123456") . "\n";
+echo '密文：' . $cipher . "\n";
+echo '明文：' . $crypt->decrypt($cipher, "123456") . "\n";
 ```
